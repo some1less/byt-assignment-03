@@ -10,6 +10,7 @@ namespace BYT03.TaskTwoTests
         Calculator mult = new Calculator(5,10,'*');
         Calculator div = new Calculator(5, -5, '/');
         Calculator divByZero = new Calculator(5, 0, '/');
+        Calculator unknownOperator = new Calculator(5, 1, '?');
 
         [Test]
         public void TestAddition()
@@ -39,6 +40,12 @@ namespace BYT03.TaskTwoTests
         public void TestDivisionByZero()
         {
             Assert.That(() => divByZero.Calculate(), Throws.TypeOf<System.DivideByZeroException>());
+        }
+
+        [Test]
+        public void TestUnknownOperator()
+        {
+            Assert.That(() => unknownOperator.Calculate(), Throws.TypeOf<System.Exception>());
         }
     }
 }
