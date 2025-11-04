@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT03.TaskOne", "src\BYT03.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT03.TaskOneTests", "src\BYT03.TaskOneTests\BYT03.TaskOneTests.csproj", "{8A0ACE17-85F4-4132-A41D-6AE5A08F92D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT03.TaskTwo", "src\BYT03.TaskTwo\BYT03.TaskTwo.csproj", "{0F2CF720-8609-405C-AB7B-90BF5A58415E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT03.TaskTwoTests", "src\BYT03.TaskTwoTests\BYT03.TaskTwoTests.csproj", "{44389B07-512A-4E74-AC3C-22C663429ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{8A0ACE17-85F4-4132-A41D-6AE5A08F92D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A0ACE17-85F4-4132-A41D-6AE5A08F92D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A0ACE17-85F4-4132-A41D-6AE5A08F92D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2CF720-8609-405C-AB7B-90BF5A58415E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2CF720-8609-405C-AB7B-90BF5A58415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2CF720-8609-405C-AB7B-90BF5A58415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2CF720-8609-405C-AB7B-90BF5A58415E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44389B07-512A-4E74-AC3C-22C663429ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44389B07-512A-4E74-AC3C-22C663429ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44389B07-512A-4E74-AC3C-22C663429ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44389B07-512A-4E74-AC3C-22C663429ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
